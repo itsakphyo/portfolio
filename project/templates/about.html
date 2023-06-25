@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Aung Khant Phyo
+{% endblock %}
+
+{% block main %}
+
+<br/>
+<!-- carousel slide -->
+<div id="abtt" class="w-100 container carousel slide carousel-fade">
+
+  <!-- inner items -->
+  <div class="carousel-inner" >
+
+    <!--item 1-->
+    <div class="carousel-item active" id="imgrow" >
+      <div class="row" >
+        <img src="/static/img/cs50 (1).png" class="d-block w-50 col"  alt="..." >
+          <div class="d-flex col justify-content-center align-items-center p-4">
+            <p >" "I am a computer science enthusiast who completed the Introduction to Computer Science course (CS50) offered by Harvard University. I am passionate about using my skills to create innovative solutions that improve people's lives and make a difference in the world. This website showcases some of my projects and accomplishments, and demonstrates my commitment to continuous learning and growth in the field of computer science.""</p>
+          </div>
+        </div>
+    </div>
+    <!--item 1-->
+
+    <!--item 2-->
+    <div class="carousel-item " id="imgrow" >
+        <div class="row" >
+          <img src="/static/img/nuum (1).jpg" class="d-block w-50 col"  alt="..." >
+          <div class="d-flex col justify-content-center align-items-center p-4">
+            <p >" I am a proud graduate of the STEM program at NUUM, where I received a comprehensive education in the fields of science, technology, engineering, and mathematics. During my time at NUUM, I was involved in a number of research projects and hands-on learning experiences, which gave me a deeper understanding of the real-world applications of STEM.  "</p>
+          </div>
+        </div>
+    </div>
+    <!--item 2-->
+
+    <!--item 3-->
+    <div class="carousel-item " id="imgrow" >
+      <div class="row" >
+        <img src="/static/img/uop (1).jpeg" class="d-block w-50 col"  alt="..." >
+          <div class="d-flex col justify-content-center align-items-center p-4">
+            <p >" I am a computer science student at the University of the People (UoPeople), where I am pursuing my passion for technology and its applications.The curriculum is designed to equip me with a strong foundation in computer science, including programming, algorithms, and data structures. I am excited to continue my learning journey at UoPeople and to use my skills to make a positive impact in the world.  "</p>
+          </div>
+        </div>
+    </div>
+    <!--item 3-->
+    
+  </div>
+  <!-- inner items -->
+
+  <!-- button -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#abtt" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#abtt" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <!-- button -->
+
+
+</div>
+{% endblock %}

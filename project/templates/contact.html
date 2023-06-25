@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Aung Khant Phyo
+{% endblock %}
+
+{% block main %}
+<div class="container-fluid">
+  <div id="mail">
+
+    <!-- title for contact -->
+    <h5 >Let's be awesome together!</h5>
+    <!-- title for contact -->
+
+    <br/>
+
+    <!-- mail and message form -->
+    <form >
+      <div class="form-group">
+        <label for="exampleFormControlInput1" class="text-light">How can I contact You?</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.<br/><br/></small>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1" class="text-light">You can leave any message here!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <br/>
+      <div style="text-align: center;" >
+        <button type="submit" class="btn btn-outline-light" href="#" style="text-align: center;">Send</button>
+      </div>
+    </form>
+    <!-- mail and message form -->
+
+    <br/>
+    <br/>
+
+    <!-- social links -->
+    <div class="row" id="sociallink">
+      <div class="col">
+        <a  href="https://www.facebook.com/itsakphyo">
+          <img src="/static/img/facebook1.svg" width="50" height="50">
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.instagram.com/itsakphyo">
+          <img src="/static/img/insta1.svg" width="50" height="50">
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://t.me/itsakphyo" >
+          <img src="/static/img/tele1.svg" width="50" height="50">
+        </a>
+      </div>
+    </div>
+    <!-- social links -->
+
+  </div>
+</div>
+{% endblock %}

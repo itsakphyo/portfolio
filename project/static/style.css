@@ -1,0 +1,108 @@
+body {
+    background-color: #000000;
+}
+
+.navbar {
+    background-color: #4c8479;
+}
+
+
+
+#logo{
+    font-size: 1.2em !important;
+     color:rgb(255, 255, 255)!important;
+}
+
+/* index page */
+#name{
+    position: absolute; 
+    top:20%; 
+    left: 20%;
+    min-height: 30%; 
+    max-width: 30%;
+}
+
+#paragraph{
+    position: absolute;
+    top:55%;
+    left: 15%;
+    min-height: 30%; 
+    max-width:40%; 
+    border-style: dashed;
+    color: rgb(113, 117, 121); 
+    border-radius: 1cm;
+
+}
+
+#indeximg{
+    position:absolute; 
+    top:25%; 
+    left: 65%;
+    max-height: 30%;
+    max-width: 30%;
+}
+
+/* about page */
+
+#imgrow{
+    padding: 100px 200px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.carousel-item img{
+    border-radius: 20px; 
+    max-height: 400px;
+    min-width: 400px; 
+    overflow: auto;
+}
+.carousel-item p{
+    color: aliceblue; text-align: justify;
+}
+
+/* skill page */
+
+#skillsparagraph{
+    position: absolute; 
+    top:30%; left: 15%;
+    min-height: 30%; 
+    max-width: 30%;
+    color: rgb(113, 117, 121);
+}
+
+#skillsprogressbar{
+    position:fixed; 
+    top:15%; 
+    left: 56%;
+    min-height: 30%; 
+    max-width: 100%;
+}
+
+/* contact page */
+#mail{
+    max-width:50% ; 
+    margin:auto; 
+    justify-content: center; 
+    align-items: center; 
+    align-content: center; 
+}
+
+#sociallink{
+    text-align: center;
+}
+
+#mail h5{
+    color: aliceblue; 
+    text-align: center; 
+    margin-top: 5%;
+}
+
+footer{
+    position:absolute;
+    top: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
